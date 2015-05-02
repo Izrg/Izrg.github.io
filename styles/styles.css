@@ -1,0 +1,135 @@
+/* Styling the Header */
+
+/* Layout */
+
+.header-container {
+    width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+header {
+    background: #0b04b1;
+}
+
+#logo {
+    display:block;
+    padding-top: 12px;
+    float:left;
+}
+
+/* Navigation */
+
+#publinks {
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+
+header ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#github:hover{
+    
+}
+
+#linkedin:hover{
+    background: black;
+}
+
+header ul li{
+    list-style: none;
+    float: left;
+}
+
+
+
+/* Tab-content styles */
+body{
+    background:#000698;
+}
+
+.content-container{
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background: #000698;
+}
+
+#tab-menu{
+    margin-left: 300px;
+    padding-left: 10%;
+    width: 50%;
+}
+
+#picture {
+    float:left;
+    
+}
+
+#tabs {
+  overflow: auto;
+  width: 500px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#tabs li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#tabs a {
+    box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    background: #ad1c1c;
+    background: linear-gradient(220deg, transparent 10px, rgb(6, 0, 255) 10px);
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    color: #fff;
+    float: left;
+    font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+    height: 35px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+#tabs a:hover {
+    background: #331fc3;
+    background: linear-gradient(220deg, transparent 10px, #5f59ff 10px);     
+}
+
+#tabs a:focus {
+    outline: 0;
+}
+
+#tabs #current a {
+    background: #fff;
+    background: linear-gradient(220deg, transparent 10px, #fff 10px);
+    text-shadow: none;    
+    color: #333;
+}
+
+#tab_content {
+    background-color: #fff;
+    background-image: linear-gradient(top, #fff, #ddd);
+    border-radius: 0 2px 2px 2px;
+    box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    padding: 30px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
